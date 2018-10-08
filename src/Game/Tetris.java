@@ -10,6 +10,8 @@ package Game;
 
 import java.util.*;
 import java.util.Scanner;
+import java.io.*;
+import java.lang.*;
 
 public class Tetris {
 
@@ -18,7 +20,7 @@ public class Tetris {
 	 */
 	public static void main(String[] args)
 	{
-		int r = 30, c = 30;
+		int r = 30,c = 30;
 		Scanner sc = new Scanner(System.in);
 
 		Board m = new Board(r, c);
